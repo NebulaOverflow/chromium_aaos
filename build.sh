@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # === CONFIGURATION ===
-DEFAULT_SRC="/mnt/f/sources/chromium/src"
+DEFAULT_SRC="$HOME/chromium/src"
 KEYSTORE="$HOME/Documents/KeyStore/store.jks"
 ARCHITECTURE="arm64"  # Options: arm64, x64
 
