@@ -16,6 +16,9 @@ git fetch
 echo ">>> Resetting local changes"
 git reset --hard
 
+echo ">>> Switching to main branch"
+git checkout main
+
 echo ">>> Pulling latest code"
 git pull
 
